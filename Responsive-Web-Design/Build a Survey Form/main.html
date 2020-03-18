@@ -1,0 +1,62 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div id="outside">
+ <form id= "survey-form">
+   <h1 id="title">Survey form</h1>
+   <p id = "description">Thank you for taking the time to help complete form</p>
+ <div>
+   <label id= "name-label" for= "name"> Name: </label>
+   </br>
+   <input type= "text" name= "name" id= "name" placeholder= "Enter your name" class= "frame" required/>
+ </div>
+  </br>
+<div>  
+  <label id="email-label" for= "email"> Email:</label>
+  </br>
+<input type= "email" name= "email" id= "email" placeholder="Enter your email" class= "frame" required />
+ </div>
+
+</br>
+
+<div>
+  <label id= "number-label" for= "Age">Age:</label>
+  </br>
+  <input type= "number" name= "Age" id="number" placeholder= "Age" min = "10" max= "120"/ class="frame"> 
+</div>
+
+<div>
+  <p>Gender</p>
+  <input type="radio" name="Gender" value="Male"/>Male
+  <input type="radio" name="Gender" value="Female"/>Female
+  <input type="radio" name="Gender" value="other"/>Other
+</div>
+
+<div>
+  <p>Education level complete:</p>
+  <select id= "dropdown" name= "education" class= "frame">
+    <option value="None">None</option>
+    <option value="Secondary">High school</option>
+    <option value="College">College</option>
+    <option value="University">University</option>
+  </select>
+</div>
+
+<div>
+  <p>Your favorite music services: </p>
+  <input type="checkbox" name="service" value="itunes"/> Itunes
+  <input type="checkbox" name="service" value="spotify"/> Spotify
+  <input type="checkbox" name="service" value="lastfm"/> Last.fm
+</div>
+
+<div>
+  <label for="comment">Comment:</label>
+  </br>
+  <textarea id= "comment" rows="4"></textarea>
+</div>
+
+<div>
+  <button type="submit" id="submit">Submit
+  </button>
+</div>
+ </form>
+</div>

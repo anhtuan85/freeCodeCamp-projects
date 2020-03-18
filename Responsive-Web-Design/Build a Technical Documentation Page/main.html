@@ -1,0 +1,157 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<nav id= "navbar">
+  <header>Pytorch Documentation</header>
+  <ul>
+    <li><a class= "nav-link" href="#What_is_Pytorch?">What is Pytorch?</a></li>
+    <li><a class= "nav-link" href="#Tensors">Tensors</a></li>
+    <li><a class= "nav-link" href="#Operation">Operation</a></li>
+    <li><a class= "nav-link" href="#Numpy_Bridge">Numpy Bridge</a></li>
+    <li><a class= "nav-link" href="#CUDA_Tensors">CUDA Tensors</a></li>
+    <li><a class= "nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id= "main-doc">
+  <section class= "main-section" id="What_is_Pytorch?">
+    <header>What is Pytorch?</header>
+    <article>
+      <p>
+        It's a Python-based scientific computing package targeted at two sets of audiences:
+        <ul>
+          <li>A replacement for NumPy to use the power of GPUs</li>
+          <li>
+A deep learning research platform that provides maximum flexibility and speed</li>
+        </ul>
+      </p>
+    </article>
+  </section>
+  
+  <section class= "main-section" id="Tensors">
+    <header>Tensors</header>
+    <article>
+      <p>Tensors are similar to NumPy’s ndarrays, with the addition being that Tensors can also be used on a GPU to accelerate computing.</p>
+      <code>
+        <p>from __future__ import print_function</p>
+        <p>import torch</p>        
+      </code>
+      <p>Construct a 5x3 matrix, uninitialized:</p>
+      <code>
+        <p>x = torch.empty(5, 3)</p>
+        <p>print(x)</p>
+      </code>
+      <p>Out: </p>
+      <code id="output">
+        tensor([[0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.]])
+      </code>
+      <p>Construct a randomly initialized matrix:</p>
+      <code>
+        <p>x = torch.rand(5, 3)</p>
+        <p>print(x)</p>
+      </code>
+      <p>Out:</p>
+      <code id="output">
+        tensor([[0.3295, 0.4239, 0.5097],
+        [0.8721, 0.8715, 0.4371],
+        [0.2750, 0.1557, 0.2710],
+        [0.6937, 0.8253, 0.0066],
+        [0.7396, 0.5192, 0.9247]])
+      </code>
+      <p>Get its size:</p>
+      <code>print(x.size())</code>
+      <p>Out: </p>
+      <code id= "output">
+        torch.Size([5, 3])
+      </code>
+      <p>Note: </p>
+      <ul>
+        <li>An uninitialized matrix is declared, but does not contain definite known values before it is used. When an uninitialized matrix is created, whatever values were in the allocated memory at the time will appear as the initial values.</li>
+        <li>torch.Size is in fact a tuple, so it supports all tuple operations.</li>
+      </ul>
+    </article>
+  </section>
+  
+  <section class= "main-section" id= "Operation">
+    <header>Operation</header>
+    <article>
+      <p>There are multiple syntaxes for operations. In the following example, we will take a look at the addition operation.</p>
+      <p>Addition: syntax 1</p>
+      <code>
+        <p>y = torch.rand(5, 3)</p>
+        <p>print(x + y)</p>
+      </code>
+      <p>Addition: syntax 2</p>
+      <code>
+        print(torch.add(x, y))
+      </code>
+      <p>Addition: providing an output tensor as argument</p>
+      <code>
+        <p>result = torch.empty(5, 3)</p>
+        <p>torch.add(x, y, out=result)</p>
+      </code>
+      <p>Addition: in-place</p>
+      <code>
+        y.add_(x)
+      </code>
+      <p>Note:</p>
+      <ul>
+        <li>Any operation that mutates a tensor in-place is post-fixed with an _. For example: x.copy_(y), x.t_(), will change x.</li>
+        <li>You can use standard NumPy-like indexing with all bells and whistles!</li>
+      </ul>
+      <p>Resizing: If you want to resize/reshape tensor, you can use torch.view:</p>
+      <code>
+        <p>x = torch.randn(4, 4)</p>
+        <p>y = x.view(16)</p>
+        <p>z = x.view(-1, 8)  # the size -1 is inferred from other dimensions</p></code>
+    </article>
+  </section>
+  
+  <section class= "main-section" id="Numpy_Bridge">
+    <header>Numpy Bridge</header>
+    <article>
+      <p>Converting a Torch Tensor to a NumPy array and vice versa is a breeze.</p>
+      <p>The Torch Tensor and NumPy array will share their underlying memory locations (if the Torch Tensor is on CPU), and changing one will change the other.</p>
+      <code>
+        <p>a = torch.ones(5)</p>
+        <p>b = a.numpy()</p>
+        <p>print(b)</p>
+      </code>
+      <p>Out: </p>
+      <code id="output">[1. 1. 1. 1. 1.]</code>
+    </article>
+  </section>
+  
+  <section class= "main-section" id="CUDA_Tensors">
+    <header>CUDA Tensors</header>
+    <article>
+      <p>Tensors can be moved onto any device using the .to method.</p>
+      <code>
+        <p>device = torch.device("cuda")          # a CUDA device object</p>
+        <p>y = torch.ones_like(x, device=device)  # directly create a tensor on GPU</p>
+        <p>x = x.to(device)                       # or just use strings ``.to("cuda")``</p>
+        <p>z = x + y</p>
+      </code>
+    </article>
+  </section>
+  
+  <section class= "main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+    <ul>
+      <li>Pytorch Tutorial: <a href="https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py" target= "_blank">Here</a></li>
+    </ul>
+     </article>
+  </section>
+</main>

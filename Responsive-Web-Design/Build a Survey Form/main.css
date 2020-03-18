@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+}
+
+#outside {
+  background-color: rgb(76, 76, 76);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#survey-form {
+  background-color: white;
+}
+#title {
+  text-align: center;
+}
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 70%;
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em; 
+}
+
+#description{
+  text-align: center;
+  font-style: italic;
+}
+
+.frame{
+  display: block;
+  width: 50%;
+  height: 2.375rem;
+  border-radius: 0.25rem;
+}
+
+textarea{
+  width: 50%
+}
+
+#submit{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: red;
+}

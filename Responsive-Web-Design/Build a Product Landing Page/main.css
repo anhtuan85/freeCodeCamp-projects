@@ -1,0 +1,49 @@
+ iframe {
+    max-width: 735px;
+   height: 398px;
+   width: 100%;
+
+}
+#nav-bar{ position: fixed; top: 0px; background-color: white; height:50px;width:100%;}
+#nav-link{position:absolute;
+  top:15px;
+   left:400px;
+}
+#nav-link2{position:absolute;
+  top:15px;
+   left:450px;}
+#nav-link3{position:absolute;
+  top:15px;
+   left:550px;}
+#header-img{
+  position:absolute;
+  top:5px;
+  left: 60px;
+  
+}
+
+body{font-family:sans-serif;}
+
+.header-img{
+  position:absolute;
+  top:8px;
+  left:190px;
+}
+#header{position:absolute;
+top:0px;
+background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1px;){
+  body{background-color:green;}
+}
+.flex{display:flex;}
