@@ -7,3 +7,7 @@ freeCodeCamp Curriculum Projects
 * [Product landing page (CodePen)](https://codepen.io/tuanna2815/full/zYxXLwo)
 * [Technical documentation page (CodePen)](https://codepen.io/tuanna2815/full/yLNYdrb)
 * [Personal portfolio webpage (CodePen)](https://codepen.io/tuanna2815/full/rNVeQWV)
+
+## JavaScript Algorithms and Data Structures Projects:
+* [Palindrome Checker](https://github.com/anhtuan85/freeCodeCamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures/Palindrome_Checker.js)
+* [Roman Numeral Converter](https://github.com/anhtuan85/freeCodeCamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures/Roman_Numeral_Converter.js)
