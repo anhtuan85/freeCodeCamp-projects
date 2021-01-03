@@ -14,3 +14,6 @@ freeCodeCamp Curriculum Projects
 * [Caesars Cipher](https://github.com/anhtuan85/freeCodeCamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures/Caesars-Cipher.js)
 * [Telephone Number Validator](https://github.com/anhtuan85/freeCodeCamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures/Telephone_Number_Validator.js)
 * [Cash RegisterPassed](https://github.com/anhtuan85/freeCodeCamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures/Cash_Register.js)
+
+## Scientific Computing with Python Projects:
+* [Arithmetic Formatter](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Arithmetic-Formatter)
