@@ -17,3 +17,4 @@ freeCodeCamp Curriculum Projects
 
 ## Scientific Computing with Python Projects:
 * [Arithmetic Formatter](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Arithmetic-Formatter)
+* [Time Caculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Time-Calculator)
