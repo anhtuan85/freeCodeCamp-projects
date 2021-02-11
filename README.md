@@ -20,3 +20,4 @@ freeCodeCamp Curriculum Projects
 * [Time Caculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Time-Calculator)
 * [Budget App](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Budget-App)
 * [Polygon Area Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Polygon-Area-Calculator)
+* [Probability Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Probability-Calculator)
