@@ -21,3 +21,10 @@ freeCodeCamp Curriculum Projects
 * [Budget App](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Budget-App)
 * [Polygon Area Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Polygon-Area-Calculator)
 * [Probability Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Probability-Calculator)
+
+## Data Analysis with Python:
+* Mean-Variance-Standard Deviation Calculator
+* Demographic Data Analyzer
+* Medical Data Visualizer
+* Page View Time Series Visualizer
+* Sea Level Predictor
