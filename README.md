@@ -16,14 +16,14 @@ freeCodeCamp Curriculum Projects
 * [Cash RegisterPassed](https://github.com/anhtuan85/freeCodeCamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures/Cash_Register.js)
 
 ## Scientific Computing with Python Projects:
-* [Arithmetic Formatter](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Arithmetic-Formatter)([Replt.it](https://repl.it/@kiennguyen24/boilerplate-arithmetic-formatter))
-* [Time Caculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Time-Calculator)([Replt.it](https://repl.it/@kiennguyen24/boilerplate-time-calculator))
-* [Budget App](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Budget-App)([Replt.it](https://repl.it/@kiennguyen24/boilerplate-budget-app))
-* [Polygon Area Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Polygon-Area-Calculator)([Replt.it](https://repl.it/@kiennguyen24/boilerplate-polygon-area-calculator))
-* [Probability Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Probability-Calculator)([Replt.it](https://repl.it/@kiennguyen24/boilerplate-probability-calculator))
+* [Arithmetic Formatter](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Arithmetic-Formatter) ([Replt.it](https://repl.it/@kiennguyen24/boilerplate-arithmetic-formatter))
+* [Time Caculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Time-Calculator) ([Replt.it](https://repl.it/@kiennguyen24/boilerplate-time-calculator))
+* [Budget App](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Budget-App) ([Replt.it](https://repl.it/@kiennguyen24/boilerplate-budget-app))
+* [Polygon Area Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Polygon-Area-Calculator) ([Replt.it](https://repl.it/@kiennguyen24/boilerplate-polygon-area-calculator))
+* [Probability Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Probability-Calculator) ([Replt.it](https://repl.it/@kiennguyen24/boilerplate-probability-calculator))
 
 ## Data Analysis with Python:
-* [Mean-Variance-Standard Deviation Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Mean-Variance-Standard-Deviation-Calculator)([Replt.it](https://repl.it/@kiennguyen24/boilerplate-mean-variance-standard-deviation-calculator))
+* [Mean-Variance-Standard Deviation Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Mean-Variance-Standard-Deviation-Calculator) ([Replt.it](https://repl.it/@kiennguyen24/boilerplate-mean-variance-standard-deviation-calculator))
 * Demographic Data Analyzer
 * Medical Data Visualizer
 * Page View Time Series Visualizer
