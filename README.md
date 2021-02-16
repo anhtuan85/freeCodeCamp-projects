@@ -23,7 +23,7 @@ freeCodeCamp Curriculum Projects
 * [Probability Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Scientific-Computing-with-Python/Probability-Calculator)
 
 ## Data Analysis with Python:
-* Mean-Variance-Standard Deviation Calculator
+* [Mean-Variance-Standard Deviation Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Mean-Variance-Standard-Deviation-Calculator)
 * Demographic Data Analyzer
 * Medical Data Visualizer
 * Page View Time Series Visualizer
