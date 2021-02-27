@@ -25,6 +25,6 @@ freeCodeCamp Curriculum Projects
 ## Data Analysis with Python:
 * [Mean-Variance-Standard Deviation Calculator](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Mean-Variance-Standard-Deviation-Calculator) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-mean-variance-standard-deviation-calculator))
 * [Demographic Data Analyzer](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Demographic-Data-Analyzer) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-demographic-data-analyzer))
-* Medical Data Visualizer
+* [Medical Data Visualizer](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Medical-Data-Visualizer) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-medical-data-visualizer))
 * Page View Time Series Visualizer
 * Sea Level Predictor
