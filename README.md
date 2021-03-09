@@ -28,3 +28,10 @@ freeCodeCamp Curriculum Projects
 * [Medical Data Visualizer](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Medical-Data-Visualizer) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-medical-data-visualizer))
 * [Page View Time Series Visualizer](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Page-View-Time-Series%20-Visualizer) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-page-view-time-series-visualizer))
 * [Sea Level Predictor](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Sea-Level-Predictor) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-sea-level-predictor))
+
+## Machine Learning with Python
+* Rock Paper Scissors
+* Cat and Dog Image Classifier
+* Book Recommendation Engine using KNN
+* Linear Regression Health Costs Calculator
+* Neural Network SMS Text Classifier
