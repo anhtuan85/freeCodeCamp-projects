@@ -29,6 +29,13 @@ freeCodeCamp Curriculum Projects
 * [Page View Time Series Visualizer](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Page-View-Time-Series%20-Visualizer) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-page-view-time-series-visualizer))
 * [Sea Level Predictor](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Sea-Level-Predictor) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-sea-level-predictor))
 
+## Data Visualization
+* Visualize Data with a Bar Chart
+* Visualize Data with a Scatterplot Graph
+* Visualize Data with a Heat Map
+* Visualize Data with a Choropleth Map
+* Visualize Data with a Treemap Diagram
+
 ## Machine Learning with Python
 * Rock Paper Scissors
 * Cat and Dog Image Classifier
