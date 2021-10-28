@@ -42,3 +42,17 @@ freeCodeCamp Curriculum Projects
 * Book Recommendation Engine using KNN
 * Linear Regression Health Costs Calculator
 * Neural Network SMS Text Classifier
+
+## Information Security
+* Stock Price Checker
+* Anonymous Message Board
+* Port Scanner
+* SHA-1 Password Cracker
+* Secure Real Time Multiplayer Game
+
+## Quality Assurance
+* Metric-Imperial Converter
+* Issue Tracker
+* Personal Library
+* Sudoku Solver
+* American British Translator
