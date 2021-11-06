@@ -30,7 +30,7 @@ freeCodeCamp Curriculum Projects
 * [Sea Level Predictor](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Sea-Level-Predictor) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-sea-level-predictor))
 
 ## Data Visualization
-* Visualize Data with a Bar Chart
+* [Visualize Data with a Bar Chart (CodePen)](https://codepen.io/tuanna2815/full/xxrOrvG)
 * Visualize Data with a Scatterplot Graph
 * Visualize Data with a Heat Map
 * Visualize Data with a Choropleth Map
