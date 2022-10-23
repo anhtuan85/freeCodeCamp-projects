@@ -29,6 +29,9 @@ freeCodeCamp Curriculum Projects
 * [Page View Time Series Visualizer](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Page-View-Time-Series%20-Visualizer) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-page-view-time-series-visualizer))
 * [Sea Level Predictor](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Data-Analysis-with-Python/Sea-Level-Predictor) ([Repl.it](https://repl.it/@kiennguyen24/boilerplate-sea-level-predictor))
 
+## Relational Database (Beta)
+* [Build a Celestial Bodies Database](https://github.com/anhtuan85/freeCodeCamp-projects/tree/master/Relational-Database-(Beta)/Celestial-Bodies-Database)
+
 ## Data Visualization
 * [Visualize Data with a Bar Chart (CodePen)](https://codepen.io/tuanna2815/full/xxrOrvG)
 * Visualize Data with a Scatterplot Graph
